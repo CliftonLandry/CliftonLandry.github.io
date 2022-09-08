@@ -1,0 +1,283 @@
+body {
+    margin: 50px;
+    background-color: #88381D;
+    clear:both;
+}
+
+/* Styling related stop the top of the page, above the navigation bar*/
+.top {
+    width: 100%;
+    height: 100px;
+    padding: 0 0 0 0;
+    position: relative;
+    overflow: hidden;
+    letter-spacing: 0.1em;
+}
+
+.header {
+    float: left;
+    width: 45%;
+    margin-top: 5px;
+}
+    .header h1 {
+        font-family: Lobster, Raleway, serif;
+        color: #EEF2FB;
+        font-size: 48px;
+    }
+
+.topText {
+    float: right;
+    width: 45%;
+    margin-top: 45px;
+}
+    .topText p {
+        font-family: Raleway, serif;
+        color: #FCE8BC;
+        font-size: 14px;
+    }
+
+    /*Styling related to the naivation bar*/
+.nav {
+    background-image: linear-gradient(#FCE8BC, #88381D);
+    position: relative;
+    padding: 0 0 0 0;
+    height: 60px;
+}
+    .nav li {
+        display: inline-block;
+        font-weight:bold;
+        padding-top:15px;
+        padding-right: 60px;
+        font-family: Raleway, serif;
+    }
+
+    .nav a {
+        display: inline-block;
+        font-weight: bold;
+        padding-top: 15px;
+        padding-right: 60px;
+        font-family: Raleway, serif;
+    }
+.nav ::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*The large image of the river, this css sets the size and positioning of it*/
+.riverImage {
+    width: 100%;
+    height: 330px;
+    overflow:hidden;
+    object-fit:cover;
+    object-position: 0 42%;
+    display:block;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+/*This defines the sections of the body where the information is placed*/
+.mainBody {
+    background-color: #FCE8E1;
+    width: 95.5%;
+    height: auto;
+    display: block;
+    overflow: auto;
+    padding: 35px;
+}
+
+/*Paragraph that describes New England*/
+.travelParagraph {
+    float: left;
+    width: 50%;
+    height: auto;
+
+}
+    .travelParagraph p {
+        font-family: Raleway, serif;
+    }
+
+    /*The seasons list on the right side of the page*/
+.seasonsList {
+    float: right;
+    overflow: auto;
+    width: 50%;
+    
+}
+
+    .seasonsList li {
+        list-style: none;    
+
+    }
+    .seasonsList img {
+        float: left;
+        width: 110px;
+        height: 110px;
+        margin-bottom:20px;
+    }
+
+.seasonListTextSpring {
+    float: right;
+    width: 82%;
+    height: auto;
+    overflow: auto;
+}
+
+    .seasonListTextSpring h3 {
+        font-family: Lobster, Raleway, serif;
+        font-size:30px;
+        float: left;
+        width:100%;
+        height:auto;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+       
+    .seasonListTextSpring p {
+        font-family:  Raleway, serif;
+        font-size: 16px;
+        float: left;
+        width:80%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 0 0 40px 0;
+    }
+
+
+
+.seasonListTextSummer {
+    float: right;
+    width: 82%;
+    height: auto;
+    overflow: auto;
+}
+
+    .seasonListTextSummer h3 {
+        font-family: Lobster, Raleway, serif;
+        font-size: 30px;
+        float: left;
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+    .seasonListTextSummer p {
+        font-family: Raleway, serif;
+        font-size: 16px;
+        float: left;
+        width: 80%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 0 0 30px 0;
+    }
+
+.seasonListTextFall {
+    float: right;
+    width: 82%;
+    height: auto;
+    overflow: auto;
+}
+
+    .seasonListTextFall h3 {
+        font-family: Lobster, Raleway, serif;
+        font-size: 30px;
+        float: left;
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+    .seasonListTextFall p {
+        font-family: Raleway, serif;
+        font-size: 16px;
+        float: left;
+        width: 80%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 0 0 55px 0;
+    }
+
+.seasonListTextWinter {
+    float: right;
+    width: 82%;
+    height: auto;
+    overflow: auto;
+}
+
+    .seasonListTextWinter h3 {
+        font-family: Lobster, Raleway, serif;
+        font-size: 30px;
+        float: left;
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+    .seasonListTextWinter p {
+        font-family: Raleway, serif;
+        font-size: 16px;
+        float: left;
+        width: 80%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+    /*Styling and positioning for the table*/
+.stateTable {
+    float: left;
+    width: 45%;
+    height: auto;
+}
+
+#stateDropDown {
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-color: #FCE8BC;
+    font-color: #EEF2FB;
+    margin: 50px 0px 0px 200px;
+}
+
+    #stateDropDown h3 {
+        font-family: Raleway, serif;
+        text-align: center;
+    }
+
+    #stateDropDown td {
+        padding-left: 30px;
+        padding-bottom: 15px;
+    }
+
+        #stateDropDown td:last-child {
+            padding-right: 0px;
+        }
+
+
+
+    #stateDropDown tr:nth-child(even) {
+        background-color: #B19C71;
+    }
+
+    #stateDropDown table {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+    /*Footer at the end of the page that has my copyright and verification inside it*/
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #B19C71;
+    display:block;
+}
+
+    .footer p {
+        font-family: Raleway, serif;
+        text-align: center;
+        padding-top:20px;
+        margin-top: -10px;
+    }
